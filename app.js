@@ -5,6 +5,9 @@
 const menu = document.querySelector('.menu');
 const barMenu = document.querySelectorAll('.menu-bar')
 const Links_list = document.querySelector('.Links-list')
+const Link_list_Li = document.querySelectorAll('.Links-list li');
+
+console.log(Link_list_Li);
 
 function bartransition (){
     barMenu.forEach(bar => {
@@ -15,6 +18,8 @@ function bartransition (){
 }
 
 menu.addEventListener('click', bartransition)
+
+Link_list_Li.forEach(li => li.addEventListener('click', bartransition))
 
 
 //variables

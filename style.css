@@ -718,8 +718,8 @@ a{
     }
 
     .Links-list{
-        position: absolute;
-        top: -30px;
+        position: fixed;
+        top: 0px;
         right: -380px;
         flex-direction: column;
         /* width: 250px; */
